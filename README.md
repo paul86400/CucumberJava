@@ -1,4 +1,4 @@
-This test uses Java, Selenium, Maven, Cucumber, and JUnit to automate the process of a google search.
+This test uses Java, Selenium, Maven, Cucumber, and JUnit to automate the process of a user completing a google search.
 
 The following process occurs when you run the program:
 
