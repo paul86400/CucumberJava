@@ -16,8 +16,7 @@ https://youtu.be/EKuFqRS-tuA
 
 Screenshots:
 
-![01](https://user-images.githubusercontent.com/8473976/206311834-e2f26cfa-7d24-496c-98ab-f8f6440e64d1.png)
-
+Maven pom.xml file:
 ![02](https://user-images.githubusercontent.com/8473976/206311845-4d324f09-7968-4b09-afa9-595efff228c8.png)
 
 ![03](https://user-images.githubusercontent.com/8473976/206311877-186ece2a-f627-42ec-8e50-4e2b8b841de7.png)
