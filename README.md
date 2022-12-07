@@ -14,7 +14,7 @@ To execute this program, you need to have Java and Eclipse installed.
 Video of test execution:
 https://youtu.be/EKuFqRS-tuA
 
-<center>Screenshots:</center>
+
 
 <b>Maven pom.xml file:</b>
 
