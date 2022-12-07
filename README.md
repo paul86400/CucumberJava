@@ -12,4 +12,4 @@ The following process occurs when you run the program:
 To execute this program, you need to have Java and Eclipse installed.
 
 Video of test execution:
-https://youtu.be/P1nSl0Gijp0
+https://youtu.be/EKuFqRS-tuA
