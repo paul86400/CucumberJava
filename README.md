@@ -9,3 +9,7 @@ The following process occurs when you run the program:
 5. Test results are printed in the console and also in 3 different files: HTML, JSON, & XML.
 
 
+To execute this program, you need to have Java and Eclipse installed.
+
+Video of test execution:
+https://youtu.be/P1nSl0Gijp0
