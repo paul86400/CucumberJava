@@ -4,8 +4,7 @@
   <artifactId>CucumberJava</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-  <dependencies>
-  
+  <dependencies>  
   	<dependency>
   		<groupId>io.cucumber</groupId>
   		<artifactId>cucumber-java</artifactId>
@@ -24,15 +23,13 @@
   		<artifactId>cucumber-junit</artifactId>
   		<version>5.7.0</version>
   		<scope>test</scope>
-  	</dependency>
-  	
+  	</dependency>	
   	<dependency>
   		<groupId>org.seleniumhq.selenium</groupId>
   		<artifactId>selenium-java</artifactId>
   		<version>4.0.0-alpha-5</version>
   		<scope>test</scope>
   	</dependency>
-  	
   	<dependency>
        <groupId>org.slf4j</groupId>
        <artifactId>slf4j-api</artifactId>
@@ -43,8 +40,6 @@
        <artifactId>slf4j-log4j12</artifactId>
        <version>1.7.5</version>
    </dependency>
-  	
-  
   </dependencies>
   
 </project>

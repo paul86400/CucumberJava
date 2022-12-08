@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-12-06T03:38:23.706Z",
+        "start_timestamp": "2022-12-07T20:44:51.589Z",
         "line": 3,
         "name": "Validate google search is working",
         "description": "",
@@ -13,19 +13,19 @@
         "steps": [
           {
             "result": {
-              "duration": 1165638600,
+              "duration": 1282579600,
               "status": "passed"
             },
             "line": 4,
-            "name": "browser is open",
+            "name": "browser has been opened",
             "match": {
-              "location": "StepDefinitions.GoogleSearchSteps.browser_is_open()"
+              "location": "StepDefinitions.GoogleSearchSteps.browser_has_been_opened()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1294894100,
+              "duration": 1493142700,
               "status": "passed"
             },
             "line": 5,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 2060322800,
+              "duration": 2062933000,
               "status": "passed"
             },
             "line": 6,
@@ -49,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 3685096900,
+              "duration": 4385632600,
               "status": "passed"
             },
             "line": 7,
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 16554972300,
+              "duration": 169070300,
               "status": "passed"
             },
             "line": 8,

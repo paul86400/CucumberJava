@@ -10,11 +10,11 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "name": "browser is open",
+  "name": "browser has been opened",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "StepDefinitions.GoogleSearchSteps.browser_is_open()"
+  "location": "StepDefinitions.GoogleSearchSteps.browser_has_been_opened()"
 });
 formatter.result({
   "status": "passed"

@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import io.cucumber.core.gherkin.Scenario;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -19,8 +20,8 @@ public class GoogleSearchSteps {
 	
 	WebDriver driver = null;
 
-	@Given("browser is open")
-	public void browser_is_open() { 
+	@Given("browser has been opened")
+	public void browser_has_been_opened() { 
 		
 		System.out.println("Browser is open");
 		
@@ -40,18 +41,14 @@ public class GoogleSearchSteps {
 	public void user_is_on_google_search_page() {
 		
 		System.out.println("User is on google page");
-		
 		driver.navigate().to("https://google.com");
-		
-		
+			
 	}
 
 	@When("user enters text in search box")
 	public void user_enters_text_in_search_box() throws InterruptedException {
-		System.out.println("User enters text in search box");
-		
+		System.out.println("User enters text in search box");	
 		driver.findElement(By.name("q")).sendKeys("Automation");
-		
 		Thread.sleep(2000);
 		
 	}
@@ -67,10 +64,9 @@ public class GoogleSearchSteps {
 	@Then("user is navigated to search results")
 	public void user_is_navigated_to_search_results() { 
 		System.out.println("User is navigated to search results");
-		
-		driver.getPageSource().contains("Automation");
 		driver.close();
 		driver.quit();
+		
 	}
-
+	
 }

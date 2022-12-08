@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="24.933">
-    <testcase classname="feature to test google search functionality" name="Validate google search is working" time="24.806">
-        <system-out><![CDATA[Given browser is open.......................................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="9.58">
+    <testcase classname="feature to test google search functionality" name="Validate google search is working" time="9.444">
+        <system-out><![CDATA[Given browser has been opened...............................................passed
 And user is on google search page...........................................passed
 When user enters text in search box.........................................passed
 And hits enter..............................................................passed
